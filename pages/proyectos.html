@@ -40,30 +40,42 @@
       </nav>
     </header>
 
-    <main class="proyectos">
-      <section class="contenedor-proyectos">
-        <h2>Proyectos</h2>
-        <div class="contenedor-card-proyectos">
-          <article class="card-proyecto">
-            <img src="./img/proyectos.png" alt="Proyecto 1">
-            <h3>Proyecto 1</h3>
-            <p>Descripción breve del proyecto</p>
-            <a href="#">www.link1.com</a>
-          </article>
-          <article class="card-proyecto">
-            <img src="./img/proyectos.png" alt="Proyecto 2">
-            <h3>Proyecto 2</h3>
-            <p>Descripción breve del proyecto</p>
-            <a href="#">www.link2.com</a>
-          </article>
-          <article class="card-proyecto">
-            <img src="./img/proyectos.png" alt="Proyecto 3">
-            <h3>Proyecto 3</h3>
-            <p>Descripción breve del proyecto</p>
-            <a href="#">www.link3.com</a>
-          </article>
+    <main class="flex-grow-1 py-5">
+      <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Proyectos</h2>
+        <div class="row justify-content-center g-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 text-center">
+              <img src="../assets/img/proyectos.png" class="card-img-top" alt="Proyecto 1">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Portafolio</h5>
+                <p class="card-text">Mi pagina de proyectos personales</p>
+                <a href="https://xcarabuzx.github.io/MiPortafolio/index.html" class="text-decoration-none text-info">Hazme Click!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 text-center">
+              <img src="../assets/img/proyectos.png" class="card-img-top" alt="Proyecto 2">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Proyecto 2</h5>
+                <p class="card-text">Descripción breve del proyecto</p>
+                <a href="#" class="text-decoration-none text-info">www.link2.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 text-center">
+              <img src="../assets/img/proyectos.png" class="card-img-top" alt="Proyecto 3">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Proyecto 3</h5>
+                <p class="card-text">Descripción breve del proyecto</p>
+                <a href="#" class="text-decoration-none text-info">www.link3.com</a>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
     </main>
 
     <footer class="bg-dark text-white text-center py-4 mt-auto">
