@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- <link rel="stylesheet" href="./css/index.css"> -->
   <title>Portafolio - Felipe Gutiérrez</title>
 </head>
@@ -44,14 +45,14 @@
   <main class="container my-5 flex-grow-1 d-flex align-items-center justify-content-center">
     <div class="row align-items-center w-100 text-center text-md-start">
       <div class="col-12 col-md-4 d-flex justify-content-center mb-4 mb-md-0">
-        <img src="./assets/img/fotoPerfil.jpg" alt="Imagen perfil" class="img-fluid rounded-circle shadow" style="max-width: 250px; height: auto;">
+        <img src="./assets/img/fotoPerfil.jpg" alt="Imagen perfil" class="img-fluid rounded-circle shadow" style="max-width: 250px; height: auto;" data-aos="fade-right">
       </div>
       <div class="col-12 col-md-4 d-flex flex-column align-items-center align-items-md-start justify-content-center mb-4 mb-md-0">
         <h1 class="mb-2 fw-bold">¡Hola! soy Felipe</h1>
         <p class="lead m-0">Desarrollador web | FullStack</p>
       </div>
       <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
-        <a href="./pages/proyectos.html" class="btn btn-primary btn-lg">Ver Proyectos</a>
+        <a href="./pages/proyectos.html" class="btn btn-primary btn-lg" data-aos="fade-left">Ver Proyectos</a>
       </div>
     </div>
   </main>
@@ -70,4 +71,12 @@
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    easing: 'ease-in-out',
+    once: true
+  });
+</script>
 </html>
