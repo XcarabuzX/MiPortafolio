@@ -8,12 +8,12 @@
   <!-- <link rel="stylesheet" href="./css/index.css"> -->
   <title>Portafolio - Felipe Gutiérrez</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Felipe Gutiérrez</a>
+        <a class="navbar-brand" href="index.html">Mi portafolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -41,17 +41,17 @@
     </nav>
   </header>
 
-  <main class="contenedor-main container my-5">
-    <div class="row align-items-center">
-      <div class="col-md-4 text-center mb-4 mb-md-0">
-        <img src="./img/fotoPerfil.jpg" alt="Imagen perfil" class="img-fluid rounded-circle shadow">
+  <main class="container my-5 flex-grow-1 d-flex align-items-center justify-content-center">
+    <div class="row align-items-center w-100 text-center text-md-start">
+      <div class="col-12 col-md-4 d-flex justify-content-center mb-4 mb-md-0">
+        <img src="./assets/img/fotoPerfil.jpg" alt="Imagen perfil" class="img-fluid rounded-circle shadow" style="max-width: 250px; height: auto;">
       </div>
-      <div class="col-md-5 text-center text-md-start">
-        <h1 class="mb-3">¡Hola! soy Felipe</h1>
-        <p class="lead">Desarrollador web | FullStack</p>
+      <div class="col-12 col-md-4 d-flex flex-column align-items-center align-items-md-start justify-content-center mb-4 mb-md-0">
+        <h1 class="mb-2 fw-bold">¡Hola! soy Felipe</h1>
+        <p class="lead m-0">Desarrollador web | FullStack</p>
       </div>
-      <div class="col-md-3 text-center text-md-start">
-        <button onclick="location.href='proyectos.html'" class="btn btn-primary btn-lg">Ver Proyectos</button>
+      <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
+        <a href="./pages/proyectos.html" class="btn btn-primary btn-lg">Ver Proyectos</a>
       </div>
     </div>
   </main>
