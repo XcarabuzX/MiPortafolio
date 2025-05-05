@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
   <link rel="stylesheet" href="./css/index.css">
   <title>Portafolio - Felipe Gutiérrez</title>
 </head>
@@ -21,26 +22,33 @@
     </nav>
   </header>
 
-  <main class="contenedor-main">
-    <div class="contenedor-img">
-        <img src="./img/fotoPerfil.jpg" alt="Imagen perfil">
-    </div>
-    <div class="contenedor-contenido">
-        <h1>¡Hola! soy Felipe</h1>
-        <p>Desarrollador web | FullStack</p>
-    </div>
-    <div class="contenedor-button">
-        <button onclick="location.href='proyectos.html'">Ver Proyectos</button>
+  <main class="contenedor-main container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <img src="./img/fotoPerfil.jpg" alt="Imagen perfil" class="img-fluid rounded-circle shadow">
+      </div>
+      <div class="col-md-5 text-center text-md-start">
+        <h1 class="mb-3">¡Hola! soy Felipe</h1>
+        <p class="lead">Desarrollador web | FullStack</p>
+      </div>
+      <div class="col-md-3 text-center text-md-start">
+        <button onclick="location.href='proyectos.html'" class="btn btn-primary btn-lg">Ver Proyectos</button>
+      </div>
     </div>
   </main>
 
-  <footer>
-    <div class="contenedor-iconos">
-        <a href="https://www.linkedin.com/in/felipe-gutierrez-reuss-150608232/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/XcarabuzX"><i class="fa-brands fa-github"></i></a> 
+  <footer class="bg-dark text-white text-center py-4 mt-auto">
+    <div class="mb-3">
+      <a href="https://www.linkedin.com/in/felipe-gutierrez-reuss-150608232/" class="text-white me-3">
+        <i class="fa-brands fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://github.com/XcarabuzX" class="text-white">
+        <i class="fa-brands fa-github fa-2x"></i>
+      </a> 
     </div>
-    <p>Felipe Gutiérrez 2025</p>
+    <p class="mb-0">Felipe Gutiérrez 2025</p>
   </footer>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </html>
